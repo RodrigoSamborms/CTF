@@ -87,6 +87,13 @@ El pipeline genera automáticamente:
 | `json_data/estadisticas.json` | Métricas y análisis completo |
 | `json_data/reporte_analisis.html` | Dashboard visual con gráficos |
 
+![Descripción](./imagenes/ContArchivoJson.jpg)
+![Descripción](./imagenes/ContUsuariosJson.jpg)
+![Descripción](./imagenes/ContResulAnalisis.jpg)
+![Analisis HTML](./imagenes/ReporteHTML.jpg)
+
+![Esquema HTML del reporte](./imagenes/EsquemaReporteHTML.jpg)
+
 ## 🛠️ **Ejemplos**
 
 ### **Pipeline Básico**
@@ -123,9 +130,7 @@ Dichos datos usualmente deben ser formateados para poder ser procesados por otra
 
 ---
 
-### 🎯 **¡Dale una estrella si te gusta el proyecto!** ⭐
 
-**Creado con ❤️ usando Prefect y Python**
 
 </div>
 
