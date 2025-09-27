@@ -86,12 +86,25 @@ El pipeline genera automáticamente:
 | `json_data/usuarios_procesados.json` | Información simplificada de usuarios |
 | `json_data/estadisticas.json` | Métricas y análisis completo |
 | `json_data/reporte_analisis.html` | Dashboard visual con gráficos |
-
+<div align="center">
+** DATOS JSON **
+</div>
 ![Descripción](./imagenes/ContArchivoJson.jpg)
+<div align="center">
+** DATOS PROCESADOS DEL ARCHIVO **
+</div>
 ![Descripción](./imagenes/ContUsuariosJson.jpg)
+<div align="center">
+** METRICAS PARCIALES OBTENIDAS TRAS LA EJECUCION **
+</div>
 ![Descripción](./imagenes/ContResulAnalisis.jpg)
+<div align="center">
+** VISTA HTML DE LA SALIDA **
+</div>
 ![Analisis HTML](./imagenes/ReporteHTML.jpg)
-
+<div align="center">
+** ESQUELETO DEL ARCHIVO HTML  **
+</div>
 ![Esquema HTML del reporte](./imagenes/EsquemaReporteHTML.jpg)
 
 ## 🛠️ **Ejemplos**
