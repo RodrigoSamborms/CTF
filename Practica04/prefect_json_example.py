@@ -7,6 +7,7 @@ Este programa demuestra cómo usar Prefect para:
 4. Generar reportes y análisis
 """
 
+# PAQUETES NECESARIOS:
 from prefect import task, flow
 from prefect.logging import get_run_logger
 import requests
@@ -16,7 +17,7 @@ from typing import List, Dict, Any
 from datetime import datetime
 import time
 
-# Configuración
+# Configuración 
 BASE_URL = "https://jsonplaceholder.typicode.com"
 DATA_DIR = "json_data"
 

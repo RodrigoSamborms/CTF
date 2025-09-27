@@ -24,6 +24,7 @@
 - [🚀 Uso](#-uso)
 - [📊 Archivos Generados](#-archivos-generados)
 - [🛠️ Ejemplos](#️-ejemplos)
+- [📝 Conclusiones](#-conclusiones)
 
 ## 🎯 **Descripción**
 
@@ -104,6 +105,20 @@ posts = obtener_posts()
 datos_procesados = procesar_posts(posts)
 ```
 
+## 📝 **Conclusiones**
+
+**Parte del uso de la IA no está en que realice el código por nosotros sino en que nos asiste en evitar tareas que son molestas, y que usualmente no forman parte del problema que se desea resolver.**
+
+**PREFECT** nos asiste con los problemas de crear código que maneje las excepciones y problemas que pudieran presentarse en el manejo de datos entre funciones internas de nuestro código, es decir muchas de nuestras funciones usualmente son **Pipelines (tuberías)** cuya entrada de datos de una función son los resultados de otra, como el caso de pedir un dato al usuario donde tenemos que verificar que sean del tipo de datos esperados y no se ingresen cadenas por números.
+
+Dichos datos usualmente deben ser formateados para poder ser procesados por otra función ya sea cuando debemos crear una tabla con varios valores numéricos y estos deben de normalizarse para presentar la misma cantidad de dígitos decimales y fraccionados. **Todas estas tareas no son parte del problema a resolver sino más bien requerimientos del código** que son necesarios para poder presentar los datos o manejarlos entre las funciones internas de nuestro código.
+
+### **🎯 Aprendizajes Clave:**
+- **🤖 IA como Asistente:** No reemplaza al programador, sino que elimina tareas tediosas
+- **🔧 Prefect como Solución:** Maneja automáticamente excepciones y flujo de datos
+- **⚡ Pipelines Eficientes:** Conexión fluida entre funciones con validación automática
+- **🛡️ Robustez:** Manejo profesional de errores sin código adicional complejo
+
 <div align="center">
 
 ---
@@ -113,3 +128,4 @@ datos_procesados = procesar_posts(posts)
 **Creado con ❤️ usando Prefect y Python**
 
 </div>
+
