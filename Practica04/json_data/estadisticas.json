@@ -1,0 +1,35 @@
+{
+  "total_posts": 100,
+  "total_usuarios": 10,
+  "total_comentarios": 500,
+  "promedio_palabras_titulo": 6.13,
+  "promedio_palabras_contenido": 23.85,
+  "post_mas_comentado": {
+    "id": 1,
+    "titulo": "Sunt Aut Facere Repellat Provident Occaecati Excepturi Optio Reprehenderit",
+    "contenido": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
+    "usuario_id": 1,
+    "longitud_titulo": 74,
+    "longitud_contenido": 158,
+    "palabras_titulo": 9,
+    "palabras_contenido": 23,
+    "fecha_procesamiento": "2025-09-27T04:38:47.308467",
+    "autor_nombre": "Leanne Graham",
+    "autor_email": "Sincere@april.biz",
+    "autor_ciudad": "Gwenborough",
+    "total_comentarios": 5
+  },
+  "usuario_mas_activo": {
+    "id": 1,
+    "nombre": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "telefono": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "ciudad": "Gwenborough",
+    "codigo_postal": "92998-3874",
+    "empresa": "Romaguera-Crona",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651501"
+  },
+  "fecha_analisis": "2025-09-27T04:38:48.049255"
+}

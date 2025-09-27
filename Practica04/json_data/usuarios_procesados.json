@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "nombre": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "telefono": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "ciudad": "Gwenborough",
+    "codigo_postal": "92998-3874",
+    "empresa": "Romaguera-Crona",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651501"
+  },
+  {
+    "id": 2,
+    "nombre": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "telefono": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "ciudad": "Wisokyburgh",
+    "codigo_postal": "90566-7771",
+    "empresa": "Deckow-Crist",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651508"
+  },
+  {
+    "id": 3,
+    "nombre": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "telefono": "1-463-123-4447",
+    "website": "ramiro.info",
+    "ciudad": "McKenziehaven",
+    "codigo_postal": "59590-4157",
+    "empresa": "Romaguera-Jacobson",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651512"
+  },
+  {
+    "id": 4,
+    "nombre": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "telefono": "493-170-9623 x156",
+    "website": "kale.biz",
+    "ciudad": "South Elvis",
+    "codigo_postal": "53919-4257",
+    "empresa": "Robel-Corkery",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651514"
+  },
+  {
+    "id": 5,
+    "nombre": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "telefono": "(254)954-1289",
+    "website": "demarco.info",
+    "ciudad": "Roscoeview",
+    "codigo_postal": "33263",
+    "empresa": "Keebler LLC",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651516"
+  },
+  {
+    "id": 6,
+    "nombre": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "telefono": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "ciudad": "South Christy",
+    "codigo_postal": "23505-1337",
+    "empresa": "Considine-Lockman",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651518"
+  },
+  {
+    "id": 7,
+    "nombre": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "telefono": "210.067.6132",
+    "website": "elvis.io",
+    "ciudad": "Howemouth",
+    "codigo_postal": "58804-1099",
+    "empresa": "Johns Group",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651520"
+  },
+  {
+    "id": 8,
+    "nombre": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "telefono": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "ciudad": "Aliyaview",
+    "codigo_postal": "45169",
+    "empresa": "Abernathy Group",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651526"
+  },
+  {
+    "id": 9,
+    "nombre": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "telefono": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "ciudad": "Bartholomebury",
+    "codigo_postal": "76495-3109",
+    "empresa": "Yost and Sons",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651528"
+  },
+  {
+    "id": 10,
+    "nombre": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "telefono": "024-648-3804",
+    "website": "ambrose.net",
+    "ciudad": "Lebsackbury",
+    "codigo_postal": "31428-2261",
+    "empresa": "Hoeger LLC",
+    "fecha_procesamiento": "2025-09-27T04:38:47.651530"
+  }
+]
