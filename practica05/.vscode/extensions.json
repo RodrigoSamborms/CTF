@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-vscode-remote.remote-ssh",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.cpptools",
+        "esbenp.prettier-vscode"
+    ]
+}
