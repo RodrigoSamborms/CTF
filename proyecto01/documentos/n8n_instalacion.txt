@@ -1,0 +1,67 @@
+#1)ACTUALIZA LA RASPBERRY PI
+sudo apt update && sudo apt upgrade -y
+#2)INSTALA NODE.JS
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+#REVISA LA INSTALACIÓN DE NODE.JS
+node -v
+npm -v
+#3)INSTALA N8N GLOBALMENTE
+sudo npm install -g n8n
+#4)INICIA N8N PARA PROBARLO
+n8n
+#POR DEFACTO SERÁ LANZADO EN EL PUERTO 5678
+http://<your-pi-ip>:5678
+#EJECUTA N8N EN SEGUNDO PLANO CON PM2
+sudo npm install -g pm2
+pm2 start n8n
+pm2 save
+pm2 startup
+#OPCIONAL ARREGLA ERRO LOCAL "SECURE COOKIE" AL EJECUTAR DESDE OTRA MAQUINA
+export N8N_SECURE_COOKIE=false
+#BONUS, REINCIA Y DETEN N8N EN CUALQUIER MOMENTO
+pm2 stop n8n       # Stops the process
+pm2 restart n8n    # Restarts the process
+pm2 logs n8n       # View logs
+#DESINSTALA N8N COMPLETAMENTE
+#DETEN LOS SERVICIOS
+pm2 stop n8n
+pm2 delete n8n
+pm2 save
+#REMUEVE PM2
+sudo npm uninstall -g pm2
+#REMUEVE N8N
+sudo npm uninstall -g n8n
+#OPCIONAL REMUEVE NODE.JS
+sudo apt remove nodejs -y
+sudo apt autoremove -y
+#REMUEVE LAS VARIABLES DE AMBIENTE EXPORTADAS ANTERIORMENTE
+N8N_SECURE_COOKIE=false
+#OAUTH2 DESDE RAPSBERRY PI
+abre el browser en la raspberry pi y completa el acceso a Google Cloud
+
+Instalar en WSL Debian 12
+
+#Actualizar el sistema
+	sudo apt update
+    	sudo apt upgrade -y
+#Instalar nvm (node versión manager)
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+    source ~/.bashrc # or ~/.profile, depending on your shell
+#Instalar Node.js
+    nvm install 20
+    nvm use 20
+    nvm alias default 20
+#verificar instalación
+    node -v
+    npm -v
+#Instalar n8n globalmente
+    npm install -g n8n
+#verificar instalación
+    n8n --versión
+#Iniciar n8n
+    n8n start
+#o simplemente
+    n8n
+#acceder a la interface n8n
+	http://localhost:5678
