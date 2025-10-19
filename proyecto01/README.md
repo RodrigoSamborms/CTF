@@ -27,3 +27,30 @@ Acceda a la interfaz
 ![alt text](./imagenes/n8n_B08.jpg)
 Tras completar el proceso de registro estara listo para crear sus Flujos de Trabajo
 ![alt text](./imagenes/n8n_B09.jpg)
+
+<h1 align="center"># Instalar LibreOffice</h1>
+<img src="imagenes/LibreOffice_logo.png" alt="Libreoffice" width="400">
+
+Utilizaremos la paqueteria LibreOffice para automatizar la conversion de archivos editables docx a pdf.
+## Actualizar el sistema:    
+    sudo apt update
+    sudo apt upgrade
+![alt text](./imagenes/n8n_A01.jpg)
+## Instalar el paquete del repo de Debian
+    sudo apt install libreoffice
+![alt text](./imagenes/n8n_A02.jpg)
+## Verificar la instalacion
+    libreoffice --version
+![alt text](./imagenes/n8n_A03.jpg)
+## Instalar ambiente de Java (Opcional)
+    sudo apt install default-jre
+![alt text](./imagenes/n8n_A04.jpg)  
+## Ejecutar la aplicacion
+Escriba el siguiente comando en el terminal como indica (A)
+
+      libreoffice
+
+Podra ver que se ejecuta la GUI del progama 
+![alt text](./imagenes/n8n_A05.jpg) 
+
+

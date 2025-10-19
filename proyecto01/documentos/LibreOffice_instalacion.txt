@@ -1,0 +1,11 @@
+#Actualizar el sistema:    
+    sudo apt update
+    sudo apt upgrade
+#Instalar el paquete del repo de Debian
+    sudo apt install libreoffice
+#Verificar la instalacion
+    libreoffice --version
+#Instalar ambiente de Java (Opcional)
+    sudo apt install default-jre    
+# Ejecutar la aplicacion
+      libreoffice
